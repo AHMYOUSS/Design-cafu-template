@@ -1,0 +1,224 @@
+body{
+    
+    padding: 0;
+    margin: 0;
+
+}
+
+
+    /* Start Container */ 
+.container {
+   /* background: rgb(255, 255, 255) ; */
+    height: 700px;
+    width: 1500px;
+    margin: 10px auto;
+    background-image: url(/fonts/abstract-background-1583001970bC8.jpg);
+}
+
+    /* End Container */
+    
+     /* Start Header */ 
+header{
+    /*    background: #F16F16; */
+    height: 70PX;
+    width: 100%;
+}
+    /* Start Header Logo */
+
+header .logo {
+height: 100%;
+width: 25%;
+/* background: seagreen; */
+float: right;
+}
+header .logo img {
+    height: 100%;
+    width: 30%;
+    float: right
+}
+header .logo form {
+    height: 100%;
+    width: 100%;
+    font-size: 12px;
+    text-align: center;
+    margin: 1px;
+    padding: 1px;
+    transition: all .6 ease-out;
+}
+
+header .logo p  :hover {
+ /*   background: plum; */
+}
+    /* End Header Logo */
+
+
+    /* Start Header Nav */ 
+
+    header nav {
+    height: 100%;
+    
+    width: 75%;
+    
+    background: rgb(194, 188, 201);
+    padding: 10px;
+}
+
+    /* End Header Nav */ 
+
+      
+    /* Start Header Nav Ul Li */ 
+
+header nav ul li { 
+    display: block;
+    display: inline;
+    margin: 20px;
+    padding: 15px;
+    ;
+  
+}
+        
+    /* End Header Nav ul li */
+
+
+     /* Start link Desing */
+
+a{
+    font-size: 35px;
+    text-decoration: none; 
+  /*  background: #a1a1aa; */
+    transition: all .5s ;
+}
+header nav ul li :hover {
+    background: purple;
+  
+}
+
+    /* End link Designe */ 
+
+    /* End Header Designe */ 
+
+
+    /* Start Content Design */ 
+
+.content{
+    width: 100%;
+   /* background: #d4d4e2; */
+    height: 600px;
+}
+
+        /* Start Content Nav Bar Deign */ 
+
+.content .nav-bar {
+    
+    background-repeat: repeat repeat-x none;
+    width:100% ;
+    height: 100%;
+}
+.content .nav-bar  .pubg {
+    background-color: rgb(233, 212, 208);
+    height: 100%;
+    width: 23.2%;
+    margin: 2px;
+    padding: 2px;
+    float: right;
+}
+
+.content .nav-bar .pubg .namecafu {
+    height: 10%;
+    background: white;
+  
+    
+}
+
+.content .nav-bar .pubg .namecafu p {
+    text-align: center;
+    margin: 6px;
+    padding: 5px;
+    font-size: 18px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: oblique;
+        color: #c9adad
+    ;
+}
+.content .nav-bar .pubg p{
+    text-align: center;
+    color: rgb(28, 30, 202);
+}
+.content .nav-bar .pubg .imgs-cafu {
+    height: 40%;
+    background: rgb(219, 228, 201);
+    text-align: center;
+}
+.content .nav-bar .pubg .imgs-cafu p {
+    height: 10%;
+    background: white;
+}
+.content .nav-bar .pubg ul {
+    list-style: none;
+}
+.content .nav-bar .pubg .imgs-cafu img {
+    height: 100%;
+    text-align: center;
+}
+
+
+.content .nav-bar .cafu img {
+    margin: 20px;
+  height: 40%;
+  width: 40%;
+  text-align: center;
+}
+.content .nav-bar .cafu {
+    margin: 12px;
+    padding: 5px;
+    text-align: center;
+}
+.content .nav-bar .cafu p {
+    margin: 12px;
+    padding: 5px;
+    font-size: 20px;
+    font-style: italic;
+    text-align: center;
+}
+
+.content .nav-bar .cafu span {
+    color:#e72525;
+}
+.content .nav-bar .cafu span :hover{
+    
+}
+    /* End Content nav bar Design */ 
+
+    /* End Content Design */ 
+
+    /* Start Footer Design */ 
+
+footer {
+   /* background: sandybrown; */
+    height: 70px;
+}
+
+    /* End Footer Design */ 
+    footer .ccopyright{
+        background: purple;
+    }
+    header form .submit {
+        background-color: rgb(255, 0, 221);
+        color: white;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        transition:all 0.5 ease-out;
+        
+    }
+    header form .submit  :hover {
+background-color: tomato;
+    }
+    header form .username {
+        background-color: rgb(148, 144, 148);
+    }
+    header form .password {
+        background-color: rgb(182, 171, 182);
+    }
+    header form label {
+        
+        color: rgb(133, 123, 133);
+    }
